@@ -25,10 +25,10 @@ function App() {
   return (
     <>
       <div style={{ display: 'flex', height: '100%' }}>
-        <div style={{ width: '70%', backgroundImage: `url(${bg})`, backgroundSize: 'cover' }}></div>
+        <div style={{ width: '70%', backgroundImage: `url(./${bg})`, backgroundSize: 'cover' }}></div>
         <div style={{ width: '30%', itemAlign: 'center', backgroundColor: 'white' }}>
 
-          <img src={logo} style={{ width: '75%', marginLeft: 'auto', marginRight: 'auto', display: 'block', marginTop: '35%' }}></img>
+          <img src={"./"+logo} style={{ width: '75%', marginLeft: 'auto', marginRight: 'auto', display: 'block', marginTop: '35%' }}></img>
           <form onSubmit={login} className='login' style={{ marginLeft: 'auto', marginRight: 'auto' ,marginTop:'15%'}}>
             <center>
  

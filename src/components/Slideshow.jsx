@@ -60,9 +60,9 @@ const Slideshow = () => {
   return (
     <div style={{paddingTop:'6%'}}> 
       <div className="w3-content w3-display-container" style={{ maxWidth: '100%' }}>
-        <img className="mySlides w3-animate-right" src={FrontrowIntensified} style={{ width: '100%' }} alt="Nature" />
-        <img className="mySlides w3-animate-right" src={Billboard} style={{ width: '100%' }} alt="Snow" />
-        <img className="mySlides w3-animate-left" src={Announcements20130203} style={{ width: '100%' }} alt="Mountains" />
+        <img className="mySlides w3-animate-right" src={"./"+FrontrowIntensified} style={{ width: '100%' }} alt="Nature" />
+        <img className="mySlides w3-animate-right" src={"./"+Billboard} style={{ width: '100%' }} alt="Snow" />
+        <img className="mySlides w3-animate-left" src={"./"+Announcements20130203} style={{ width: '100%' }} alt="Mountains" />
         <div className="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style={{ width: '100%' }}>
           <div className="w3-left w3-hover-text-khaki" onClick={() => plusDivs(-1)}>&#10094;</div>
           <div className="w3-right w3-hover-text-khaki" onClick={() => plusDivs(1)}>&#10095;</div>

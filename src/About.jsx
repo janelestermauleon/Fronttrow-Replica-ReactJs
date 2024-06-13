@@ -9,7 +9,7 @@ function App() {
     return (
         <>
             <Header></Header>
-            <img src={aboutImg} style={{ width: '100%', marginTop: '6.5%' }}></img>
+            <img src={"./"+aboutImg} style={{ width: '100%', marginTop: '6.5%' }}></img>
             <div className='founders' style={{ backgroundColor: 'white' }}>
                 <h1 style={{ padding: '5% 0% 0 5%', color: 'red', textDecoration: 'underline' }}>Our Founders</h1>
                 <span style={{ display: 'flex', justifyContent: 'space-around', textAlign: 'justify' }}>
@@ -49,7 +49,7 @@ function App() {
                     </p>
                 </span>
                 
-            <a className='btprod' href='/shop'>TAKE ME TO THE PRODUCTS</a>
+            <a className='btprod' href='./#/shop'>TAKE ME TO THE PRODUCTS</a>
             <br></br>
             </div>
             <Footer></Footer>

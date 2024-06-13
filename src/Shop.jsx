@@ -114,7 +114,7 @@ function App() {
             {products.map((prod, index) => (
                 <div className='product'>
                     <div className='img'>
-                    <img src={prod.img} style={{maxWidth:'150px'}}></img></div>
+                    <img src={"./"+prod.img} style={{maxWidth:'150px'}}></img></div>
                     <h3>{prod.name}</h3>
                     <p>{prod.price}</p>
                     <a className='Details'>Product Details</a>

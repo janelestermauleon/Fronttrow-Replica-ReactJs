@@ -13,7 +13,7 @@ function App({cart}) {
     return (
         <>
             <nav>
-                <span><a href="./#/home"><img src={logo} className="logo" /></a></span>
+                <span><a href="./#/home"><img src={"./"+logo} className="logo" /></a></span>
                 <span>
                     <button className="btn btn-default center" type="button">
                         <i className="bi bi-globe">Map | Philippines</i> 

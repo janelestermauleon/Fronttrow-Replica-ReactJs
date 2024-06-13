@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container p-4">
         <div className="row">
           <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
-          <a href="/home"><img src={logo} className="logo" /></a>
+          <a href="/home"><img src={"./"+logo} className="logo" /></a>
             <ul className="list-unstyled mb-4">
               <li>
                 <a href="#!" className="text-white center">Copyright © 2024 All rights reserved | 2018 Frontrow International</a> 
